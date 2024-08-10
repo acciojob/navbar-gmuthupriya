@@ -1,38 +1,32 @@
-nav{
-	background-color:#6e072d;
-	 justify-content: space-between;
-	align-items:center;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6e072d;
+    color: white;
 }
-ul{
-	background-color:#6e072d;
-	color:white;
-	list-style-type:none;
-	
-	padding:0px;
-	margin:0px;
-	font-size:18px;
-	display:flex;
-	width:100vw;
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
-.right-nav{
-	margin:right:20px
-	border-right:none;
+
+li {
+    padding: 18px 27px;
+    border: 2px solid white;
+    cursor: pointer;
 }
-li{	
-	padding:18px 27px;
-	border:2px solid white;
-	cursor:pointer;
+
+li:hover {
+    background-color: #b90e4d;
 }
-nav.left-nav li: first-child{
-	border-left:none;
+
+.left-nav li:last-child {
+    border-right: none;
 }
-nav.right-nav li: last-child{
-	border-right:none;
+
+.right-nav li:first-child {
+    border-left: none;
 }
-li:hover{
-	background-color:#b90e4d;
-}
-div{
-	
-}
-/*  your css code here. If applicable */
