@@ -1,1 +1,38 @@
+nav{
+	background-color:#6e072d;
+	 justify-content: space-between;
+	align-items:center;
+}
+ul{
+	background-color:#6e072d;
+	color:white;
+	list-style-type:none;
+	
+	padding:0px;
+	margin:0px;
+	font-size:18px;
+	display:flex;
+	width:100vw;
+}
+.right-nav{
+	margin:right:20px
+	border-right:none;
+}
+li{	
+	padding:18px 27px;
+	border:2px solid white;
+	cursor:pointer;
+}
+nav.left-nav li: first-child{
+	border-left:none;
+}
+nav.right-nav li: last-child{
+	border-right:none;
+}
+li:hover{
+	background-color:#b90e4d;
+}
+div{
+	
+}
 /*  your css code here. If applicable */
